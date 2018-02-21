@@ -1,0 +1,831 @@
+fileFormatVersion: 2
+guid: 0bdbe9f7d2910554aacdc6b454937e84
+timeCreated: 1518671256
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Pilot:Geometry
+    100002: Pilot:LeftClav_Skel
+    100004: Pilot:LeftFinger1_1_Skel
+    100006: Pilot:LeftFinger1_2_Skel
+    100008: Pilot:LeftFinger1_3_Skel
+    100010: Pilot:LeftFinger2_1_Skel
+    100012: Pilot:LeftFinger2_2_Skel
+    100014: Pilot:LeftFinger2_3_Skel
+    100016: Pilot:LeftFinger3_1_Skel
+    100018: Pilot:LeftFinger3_2_Skel
+    100020: Pilot:LeftFinger3_3_Skel
+    100022: Pilot:LeftFinger4_1_Skel
+    100024: Pilot:LeftFinger4_2_Skel
+    100026: Pilot:LeftFinger4_3_Skel
+    100028: Pilot:LeftFoot_Skel
+    100030: Pilot:LeftHand_Skel
+    100032: Pilot:LeftLowerArm_Skel
+    100034: Pilot:LeftLowerLeg_Skel
+    100036: Pilot:LeftThumb_1_Skel
+    100038: Pilot:LeftThumb_2_Skel
+    100040: Pilot:LeftThumb_3_Skel
+    100042: Pilot:LeftUpperArm_Skel
+    100044: Pilot:LeftUpperLeg_Skel
+    100046: Pilot:MidSection_Skel
+    100048: Pilot:Pilot
+    100050: Pilot:RightClav_Skel
+    100052: Pilot:RightFinger1_1_Skel
+    100054: Pilot:RightFinger1_2_Skel
+    100056: Pilot:RightFinger1_3_Skel
+    100058: Pilot:RightFinger2_1_Skel
+    100060: Pilot:RightFinger2_2_Skel
+    100062: Pilot:RightFinger2_3_Skel
+    100064: Pilot:RightFinger3_1_Skel
+    100066: Pilot:RightFinger3_2_Skel
+    100068: Pilot:RightFinger3_3_Skel
+    100070: Pilot:RightFinger4_1_Skel
+    100072: Pilot:RightFinger4_2_Skel
+    100074: Pilot:RightFinger4_3_Skel
+    100076: Pilot:RightFoot_Skel
+    100078: Pilot:RightHand_Skel
+    100080: Pilot:RightLowerArm_Skel
+    100082: Pilot:RightLowerLeg_Skel
+    100084: Pilot:RightThumb_1_Skel
+    100086: Pilot:RightThumb_2_Skel
+    100088: Pilot:RightThumb_3_Skel
+    100090: Pilot:RightUpperArm_Skel
+    100092: Pilot:RightUpperLeg_Skel
+    100094: Pilot:Root_Skel
+    100096: Pilot:Skeleton
+    100098: Pilot:Torso_Skel
+    100100: //RootNode
+    100102: Pilot:Head_Skel
+    400000: Pilot:Geometry
+    400002: Pilot:LeftClav_Skel
+    400004: Pilot:LeftFinger1_1_Skel
+    400006: Pilot:LeftFinger1_2_Skel
+    400008: Pilot:LeftFinger1_3_Skel
+    400010: Pilot:LeftFinger2_1_Skel
+    400012: Pilot:LeftFinger2_2_Skel
+    400014: Pilot:LeftFinger2_3_Skel
+    400016: Pilot:LeftFinger3_1_Skel
+    400018: Pilot:LeftFinger3_2_Skel
+    400020: Pilot:LeftFinger3_3_Skel
+    400022: Pilot:LeftFinger4_1_Skel
+    400024: Pilot:LeftFinger4_2_Skel
+    400026: Pilot:LeftFinger4_3_Skel
+    400028: Pilot:LeftFoot_Skel
+    400030: Pilot:LeftHand_Skel
+    400032: Pilot:LeftLowerArm_Skel
+    400034: Pilot:LeftLowerLeg_Skel
+    400036: Pilot:LeftThumb_1_Skel
+    400038: Pilot:LeftThumb_2_Skel
+    400040: Pilot:LeftThumb_3_Skel
+    400042: Pilot:LeftUpperArm_Skel
+    400044: Pilot:LeftUpperLeg_Skel
+    400046: Pilot:MidSection_Skel
+    400048: Pilot:Pilot
+    400050: Pilot:RightClav_Skel
+    400052: Pilot:RightFinger1_1_Skel
+    400054: Pilot:RightFinger1_2_Skel
+    400056: Pilot:RightFinger1_3_Skel
+    400058: Pilot:RightFinger2_1_Skel
+    400060: Pilot:RightFinger2_2_Skel
+    400062: Pilot:RightFinger2_3_Skel
+    400064: Pilot:RightFinger3_1_Skel
+    400066: Pilot:RightFinger3_2_Skel
+    400068: Pilot:RightFinger3_3_Skel
+    400070: Pilot:RightFinger4_1_Skel
+    400072: Pilot:RightFinger4_2_Skel
+    400074: Pilot:RightFinger4_3_Skel
+    400076: Pilot:RightFoot_Skel
+    400078: Pilot:RightHand_Skel
+    400080: Pilot:RightLowerArm_Skel
+    400082: Pilot:RightLowerLeg_Skel
+    400084: Pilot:RightThumb_1_Skel
+    400086: Pilot:RightThumb_2_Skel
+    400088: Pilot:RightThumb_3_Skel
+    400090: Pilot:RightUpperArm_Skel
+    400092: Pilot:RightUpperLeg_Skel
+    400094: Pilot:Root_Skel
+    400096: Pilot:Skeleton
+    400098: Pilot:Torso_Skel
+    400100: //RootNode
+    400102: Pilot:Head_Skel
+    2100000: Pilot_MatPilot
+    4300000: Pilot:Pilot
+    9500000: //RootNode
+    13700000: Pilot:Pilot
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Pilot:Root_Skel
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftUpperLeg_Skel
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightUpperLeg_Skel
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftLowerLeg_Skel
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightLowerLeg_Skel
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFoot_Skel
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFoot_Skel
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:MidSection_Skel
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftClav_Skel
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightClav_Skel
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftUpperArm_Skel
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightUpperArm_Skel
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftLowerArm_Skel
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightLowerArm_Skel
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftHand_Skel
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightHand_Skel
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftThumb_1_Skel
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftThumb_2_Skel
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftThumb_3_Skel
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger1_1_Skel
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger1_2_Skel
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger1_3_Skel
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger2_1_Skel
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger2_2_Skel
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger2_3_Skel
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger3_1_Skel
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger3_2_Skel
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger3_3_Skel
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger4_1_Skel
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger4_2_Skel
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:LeftFinger4_3_Skel
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightThumb_1_Skel
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightThumb_2_Skel
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightThumb_3_Skel
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger1_1_Skel
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger1_2_Skel
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger1_3_Skel
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger2_1_Skel
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger2_2_Skel
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger2_3_Skel
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger3_1_Skel
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger3_2_Skel
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger3_3_Skel
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger4_1_Skel
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger4_2_Skel
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:RightFinger4_3_Skel
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pilot:Head_Skel
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Pilot_Rig(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:Geometry
+      parentName: Pilot_Rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:Pilot
+      parentName: Pilot:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:Skeleton
+      parentName: Pilot_Rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:Root_Skel
+      parentName: Pilot:Skeleton
+      position: {x: 0.0005583811, y: 0.9839543, z: -0.013423432}
+      rotation: {x: 0.39223227, y: -0.5883484, z: -0.39223227, w: 0.5883484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:MidSection_Skel
+      parentName: Pilot:Root_Skel
+      position: {x: -0.14825302, y: -0.0071113016, z: 6.648831e-17}
+      rotation: {x: 6.267764e-33, y: 1.7650253e-16, z: -0.18209213, w: 0.9832815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:Torso_Skel
+      parentName: Pilot:MidSection_Skel
+      position: {x: -0.14536221, y: -0.0015010716, z: 4.757509e-17}
+      rotation: {x: -0.49280834, y: 0.5070897, z: 0.49280834, w: 0.5070897}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:Head_Skel
+      parentName: Pilot:Torso_Skel
+      position: {x: -0.0005583811, y: 0.26812348, z: 0.011355794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftClav_Skel
+      parentName: Pilot:Torso_Skel
+      position: {x: -0.114838585, y: 0.090003714, z: 0.042338148}
+      rotation: {x: -0.000000014901161, y: 0.098967955, z: 0.036026612, w: 0.9944383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftUpperArm_Skel
+      parentName: Pilot:LeftClav_Skel
+      position: {x: -0.11140211, y: 0.02251875, z: -0.061860595}
+      rotation: {x: 0.7294838, y: -0.08820748, z: 0.052098654, w: 0.676283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftLowerArm_Skel
+      parentName: Pilot:LeftUpperArm_Skel
+      position: {x: -0.32690558, y: 0.000488715, z: 0.0031248236}
+      rotation: {x: -0.006327567, y: -0.006862247, z: -0.007041519, w: 0.9999317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftHand_Skel
+      parentName: Pilot:LeftLowerArm_Skel
+      position: {x: -0.25569677, y: -0.0019305446, z: 0.00010742899}
+      rotation: {x: 0.010781689, y: -0.7031106, z: 0.010719491, w: 0.7109179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger1_1_Skel
+      parentName: Pilot:LeftHand_Skel
+      position: {x: -0.018909808, y: 0.04216999, z: 0.10903634}
+      rotation: {x: -0.02512929, y: -0.057039462, z: 0.003619134, w: 0.9980491}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger1_2_Skel
+      parentName: Pilot:LeftFinger1_1_Skel
+      position: {x: 0.003630554, y: 0.0013485823, z: 0.04646292}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger1_3_Skel
+      parentName: Pilot:LeftFinger1_2_Skel
+      position: {x: 0.0034565644, y: 0.0026408567, z: 0.03227828}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger2_1_Skel
+      parentName: Pilot:LeftHand_Skel
+      position: {x: -0.020755975, y: 0.016187409, z: 0.111002214}
+      rotation: {x: -0.026847286, y: -0.07432163, z: 0.0058182226, w: 0.99685585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger2_2_Skel
+      parentName: Pilot:LeftFinger2_1_Skel
+      position: {x: 0.005531641, y: 0.0017348526, z: 0.047687072}
+      rotation: {x: 1.0409615e-17, y: 1.603654e-18, z: -0.0007925562, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger2_3_Skel
+      parentName: Pilot:LeftFinger2_2_Skel
+      position: {x: 0.0033449638, y: 0.0008300223, z: 0.032934174}
+      rotation: {x: 0.0043123574, y: -0.000020654807, z: -0.004789579, w: 0.99997926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger3_1_Skel
+      parentName: Pilot:LeftHand_Skel
+      position: {x: -0.015828656, y: -0.008896928, z: 0.10912413}
+      rotation: {x: -0.027377402, y: -0.034575272, z: -0.000077165634, w: 0.999027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger3_2_Skel
+      parentName: Pilot:LeftFinger3_1_Skel
+      position: {x: 0.0005927603, y: -0.00057421793, z: 0.046997715}
+      rotation: {x: 0.004427112, y: -0.011514942, z: -0.00019647655, w: 0.9999239}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger3_3_Skel
+      parentName: Pilot:LeftFinger3_2_Skel
+      position: {x: 0.003507828, y: 0.0008168833, z: 0.031151408}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger4_1_Skel
+      parentName: Pilot:LeftHand_Skel
+      position: {x: -0.010143069, y: -0.0384566, z: 0.10537357}
+      rotation: {x: -0.04687721, y: -0.030087318, z: -0.004377917, w: 0.9984378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger4_2_Skel
+      parentName: Pilot:LeftFinger4_1_Skel
+      position: {x: -0.0014580546, y: -0.0034251004, z: 0.039152943}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFinger4_3_Skel
+      parentName: Pilot:LeftFinger4_2_Skel
+      position: {x: 0.0011278159, y: -0.0036629112, z: 0.031226482}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftThumb_1_Skel
+      parentName: Pilot:LeftHand_Skel
+      position: {x: 0.013325225, y: 0.03284713, z: 0.037612267}
+      rotation: {x: -0.24112663, y: 0.3633364, z: 0.77090436, w: 0.4642747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftThumb_2_Skel
+      parentName: Pilot:LeftThumb_1_Skel
+      position: {x: -8.398981e-17, y: 2.7256456e-17, z: 0.036330443}
+      rotation: {x: -0.021719722, y: -0.028105866, z: 0.09796287, w: 0.994556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftThumb_3_Skel
+      parentName: Pilot:LeftThumb_2_Skel
+      position: {x: 9.218885e-18, y: -2.3541198e-17, z: 0.03497373}
+      rotation: {x: -0.10655292, y: -0.26420128, z: -0.7858335, w: 0.54891706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightClav_Skel
+      parentName: Pilot:Torso_Skel
+      position: {x: 0.114838615, y: 0.090003744, z: 0.04233818}
+      rotation: {x: 0.9944381, y: -0.03602693, z: 0.0989692, w: 0.000000029802326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightUpperArm_Skel
+      parentName: Pilot:RightClav_Skel
+      position: {x: 0.111402, y: -0.022518698, z: 0.061861098}
+      rotation: {x: 0.7379633, y: -0.08747239, z: 0.053115018, w: 0.6670364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightLowerArm_Skel
+      parentName: Pilot:RightUpperArm_Skel
+      position: {x: 0.32690597, y: -0.0004891614, z: -0.0031250848}
+      rotation: {x: -0.0062751174, y: -0.006807763, z: -0.0067410544, w: 0.99993443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightHand_Skel
+      parentName: Pilot:RightLowerArm_Skel
+      position: {x: 0.25569683, y: 0.0019298958, z: -0.000107188294}
+      rotation: {x: 0.010783815, y: -0.70435596, z: 0.010741304, w: 0.7096837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger1_1_Skel
+      parentName: Pilot:RightHand_Skel
+      position: {x: 0.01890993, y: -0.042170122, z: -0.10903632}
+      rotation: {x: -0.025128447, y: -0.05704117, z: 0.0036193216, w: 0.998049}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger1_2_Skel
+      parentName: Pilot:RightFinger1_1_Skel
+      position: {x: -0.0036308984, y: -0.0013487212, z: -0.046463277}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger1_3_Skel
+      parentName: Pilot:RightFinger1_2_Skel
+      position: {x: -0.0034566124, y: -0.002640272, z: -0.03227809}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger2_1_Skel
+      parentName: Pilot:RightHand_Skel
+      position: {x: 0.020756042, y: -0.01618697, z: -0.11100266}
+      rotation: {x: -0.026847688, y: -0.074324735, z: 0.005818265, w: 0.9968557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger2_2_Skel
+      parentName: Pilot:RightFinger2_1_Skel
+      position: {x: -0.0055319695, y: -0.0017348834, z: -0.04768619}
+      rotation: {x: 1.6515257e-14, y: -2.3039648e-16, z: -0.0007925562, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger2_3_Skel
+      parentName: Pilot:RightFinger2_2_Skel
+      position: {x: -0.003344258, y: -0.00082992174, z: -0.03293508}
+      rotation: {x: 0.0043123574, y: -0.000020654807, z: -0.004789579, w: 0.99997926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger3_1_Skel
+      parentName: Pilot:RightHand_Skel
+      position: {x: 0.015828354, y: 0.008897501, z: -0.109124094}
+      rotation: {x: -0.027374709, y: -0.034571677, z: -0.000077173114, w: 0.9990273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger3_2_Skel
+      parentName: Pilot:RightFinger3_1_Skel
+      position: {x: -0.0005925543, y: 0.0005742609, z: -0.046997838}
+      rotation: {x: 0.0044280053, y: -0.011513792, z: -0.00019655393, w: 0.9999239}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger3_3_Skel
+      parentName: Pilot:RightFinger3_2_Skel
+      position: {x: -0.003507437, y: -0.00081739586, z: -0.031150883}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger4_1_Skel
+      parentName: Pilot:RightHand_Skel
+      position: {x: 0.010143148, y: 0.038456906, z: -0.10537386}
+      rotation: {x: -0.046875663, y: -0.030085804, z: -0.0043778257, w: 0.99843794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger4_2_Skel
+      parentName: Pilot:RightFinger4_1_Skel
+      position: {x: 0.0014581297, y: 0.0034251038, z: -0.03915241}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFinger4_3_Skel
+      parentName: Pilot:RightFinger4_2_Skel
+      position: {x: -0.001128068, y: 0.0036623024, z: -0.031226365}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightThumb_1_Skel
+      parentName: Pilot:RightHand_Skel
+      position: {x: -0.013325113, y: -0.03284692, z: -0.037612595}
+      rotation: {x: -0.24896733, y: 0.35960886, z: 0.77219677, w: 0.46087837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightThumb_2_Skel
+      parentName: Pilot:RightThumb_1_Skel
+      position: {x: 0.00000016077456, y: -0.00000026844074, z: -0.03633005}
+      rotation: {x: -0.021735406, y: -0.02811582, z: 0.09796341, w: 0.9945553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightThumb_3_Skel
+      parentName: Pilot:RightThumb_2_Skel
+      position: {x: -0.00000043236412, y: 0.0000008804878, z: -0.03497371}
+      rotation: {x: -0.10655292, y: -0.26420128, z: -0.7858335, w: 0.54891706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightUpperLeg_Skel
+      parentName: Pilot:Root_Skel
+      position: {x: 0.087990895, y: 0.011607958, z: -0.13515115}
+      rotation: {x: 0.100517526, y: 0.98387146, z: -0.13713945, w: -0.055551857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightLowerLeg_Skel
+      parentName: Pilot:RightUpperLeg_Skel
+      position: {x: -0.45784938, y: 1.7763568e-17, z: 2.0332597e-16}
+      rotation: {x: 0.95398504, y: 0.29796335, z: -0.022369698, w: 0.025100753}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:RightFoot_Skel
+      parentName: Pilot:RightLowerLeg_Skel
+      position: {x: -0.38712847, y: -6.217249e-17, z: -3.0362e-17}
+      rotation: {x: 0.33583426, y: 0.5959925, z: -0.43888003, w: 0.5825741}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftUpperLeg_Skel
+      parentName: Pilot:Root_Skel
+      position: {x: 0.087991185, y: 0.011607881, z: 0.13515137}
+      rotation: {x: 0.98387146, y: -0.100517675, z: 0.05555211, w: -0.13713898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftLowerLeg_Skel
+      parentName: Pilot:LeftUpperLeg_Skel
+      position: {x: 0.4578494, y: -0.000000024114327, z: 0.00000038269954}
+      rotation: {x: 0.95398515, y: 0.29796293, z: -0.022369653, w: 0.025100378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pilot:LeftFoot_Skel
+      parentName: Pilot:LeftLowerLeg_Skel
+      position: {x: 0.38712832, y: -0.00000016120613, z: -0.00000014479517}
+      rotation: {x: 0.33583412, y: 0.5959925, z: -0.43888047, w: 0.58257395}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.492
+    upperLegTwist: 0.5
+    legTwist: 0.295
+    armStretch: 0.108
+    legStretch: 0
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Pilot_LeftHand
+  m_Mask: 00000000000000000000000000000000000000000100000000000000010000000000000000000000000000000100000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Pilot:Geometry
+    m_Weight: 0
+  - m_Path: Pilot:Geometry/Pilot:Pilot
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:LeftUpperLeg_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:LeftUpperLeg_Skel/Pilot:LeftLowerLeg_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:LeftUpperLeg_Skel/Pilot:LeftLowerLeg_Skel/Pilot:LeftFoot_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:Head_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger1_1_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger1_1_Skel/Pilot:LeftFinger1_2_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger1_1_Skel/Pilot:LeftFinger1_2_Skel/Pilot:LeftFinger1_3_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger2_1_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger2_1_Skel/Pilot:LeftFinger2_2_Skel
+    m_Weight: 1
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger2_1_Skel/Pilot:LeftFinger2_2_Skel/Pilot:LeftFinger2_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger3_1_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger3_1_Skel/Pilot:LeftFinger3_2_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger3_1_Skel/Pilot:LeftFinger3_2_Skel/Pilot:LeftFinger3_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger4_1_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger4_1_Skel/Pilot:LeftFinger4_2_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftFinger4_1_Skel/Pilot:LeftFinger4_2_Skel/Pilot:LeftFinger4_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftThumb_1_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftThumb_1_Skel/Pilot:LeftThumb_2_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:LeftClav_Skel/Pilot:LeftUpperArm_Skel/Pilot:LeftLowerArm_Skel/Pilot:LeftHand_Skel/Pilot:LeftThumb_1_Skel/Pilot:LeftThumb_2_Skel/Pilot:LeftThumb_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger1_1_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger1_1_Skel/Pilot:RightFinger1_2_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger1_1_Skel/Pilot:RightFinger1_2_Skel/Pilot:RightFinger1_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger2_1_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger2_1_Skel/Pilot:RightFinger2_2_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger2_1_Skel/Pilot:RightFinger2_2_Skel/Pilot:RightFinger2_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger3_1_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger3_1_Skel/Pilot:RightFinger3_2_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger3_1_Skel/Pilot:RightFinger3_2_Skel/Pilot:RightFinger3_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger4_1_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger4_1_Skel/Pilot:RightFinger4_2_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightFinger4_1_Skel/Pilot:RightFinger4_2_Skel/Pilot:RightFinger4_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightThumb_1_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightThumb_1_Skel/Pilot:RightThumb_2_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:MidSection_Skel/Pilot:Torso_Skel/Pilot:RightClav_Skel/Pilot:RightUpperArm_Skel/Pilot:RightLowerArm_Skel/Pilot:RightHand_Skel/Pilot:RightThumb_1_Skel/Pilot:RightThumb_2_Skel/Pilot:RightThumb_3_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:RightUpperLeg_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:RightUpperLeg_Skel/Pilot:RightLowerLeg_Skel
+    m_Weight: 0
+  - m_Path: Pilot:Skeleton/Pilot:Root_Skel/Pilot:RightUpperLeg_Skel/Pilot:RightLowerLeg_Skel/Pilot:RightFoot_Skel
+    m_Weight: 0
