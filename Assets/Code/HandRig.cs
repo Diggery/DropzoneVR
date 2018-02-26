@@ -31,6 +31,17 @@ public class HandRig : MonoBehaviour {
         }
     }
 
+    float blendTimer = 0.0f;
+    float blendDuration = 0.25f;
+    bool isGrabbing = false;
+    public bool IsGrabbing {
+        get { return isGrabbing; }
+        set {
+            isGrabbing = value;
+            blendTimer = Mathf.Clamp01(blendTimer);
+        }
+    }
+
     VRHandle grabbedHandle;
 
     public void Init(ControllerInput input, Hand setting) {
@@ -44,6 +55,7 @@ public class HandRig : MonoBehaviour {
 
 
     void Start() {
+
         pilot = GameObject.Find("Pilot_Rig").GetComponent<PilotControl>();
         pilotAnimator = pilot.gameObject.GetComponent<Animator>();
         goal = transform.Find("Goal");
@@ -66,15 +78,28 @@ public class HandRig : MonoBehaviour {
 
     private void Update() {
         if (hand == Hand.None) return;
+
+
         Vector3 handPosGoal = controllerTransform.position;
         Quaternion handRotGoal = controllerTransform.rotation;
 
-        if (grabbedHandle) {
-            handPosGoal = grabbedHandle.GetGrabPos(hand, controllerTransform.position);
-            handRotGoal = grabbedHandle.GetGrabRot(hand);
+        if (blendTimer >= 0.0f) {
+            blendTimer += Mathf.Clamp(Time.deltaTime / (isGrabbing ? blendDuration : -blendDuration), -0.1f, 1.0f);
+            float amount = Mathf.SmoothStep(0, 1, blendTimer);
+            if (grabbedHandle) {
+                handPosGoal = Vector3.Lerp(controllerTransform.position, grabbedHandle.GetGrabPos(hand, controllerTransform.position), amount);
+                handRotGoal = Quaternion.Lerp(controllerTransform.rotation, grabbedHandle.GetGrabRot(hand), amount);
+            }
+
         }
 
-        transform.position = Vector3.MoveTowards(transform.position, handPosGoal, Time.deltaTime * 5);
+
+        //if (grabbedHandle) {
+        //    handPosGoal = grabbedHandle.GetGrabPos(hand, controllerTransform.position);
+        //    handRotGoal = grabbedHandle.GetGrabRot(hand);
+        //}
+
+        transform.position = handPosGoal;
         transform.rotation = handRotGoal;
 
         HumanBodyBones upperArmBone = (hand == Hand.Right ? HumanBodyBones.RightUpperArm : HumanBodyBones.LeftUpperArm);
@@ -98,54 +123,52 @@ public class HandRig : MonoBehaviour {
         triggerDown = true;
         GrabHandle();
 
-        if (gripDown) {
-            SetHandPose(HandPose.Fist);
-        } else {
-            SetHandPose(HandPose.Fist);
-        }
+        pilotAnimator.SetBool("Trigger" + (hand == Hand.Right ? "Right" : "Left"), true);
+
     }
+
     public void Trigger() {
 
     }
+
     public void TriggerUp() {
         triggerDown = false;
         ReleaseHandle();
 
-        if (gripDown) {
-            SetHandPose(HandPose.Point);
-        } else {
-            SetHandPose(HandPose.Idle);
-        }
+        pilotAnimator.SetBool("Trigger" + (hand == Hand.Right ? "Right" : "Left"), false);
+
     }
+
     public void GripDown() {
         gripDown = true;
-        GrabHandle();
 
-        if (triggerDown) {
-            SetHandPose(HandPose.Fist);
-        } else {
-            SetHandPose(HandPose.Point);
-        }
+        if (!IsGrabbing)
+            GrabHandle();
+
+        pilotAnimator.SetBool("Grip" + (hand == Hand.Right ? "Right" : "Left"), true);
+
     }
+
     public void Grip() {
 
     }
+
     public void GripUp() {
         gripDown = false;
-        ReleaseHandle();
-        if (triggerDown) {
-            SetHandPose(HandPose.Fist);
-        } else {
-            SetHandPose(HandPose.Idle);
-        }
+
+        if (IsGrabbing)
+            ReleaseHandle();
+
+        pilotAnimator.SetBool("Grip" + (hand == Hand.Right ? "Right" : "Left"), false);
     }
 
     void GrabHandle( ) {
         GameObject[] handles = GameObject.FindGameObjectsWithTag("VRHandle");
         foreach (GameObject handle in handles) {
-            if (Vector3.Distance(handle.transform.position, transform.position) < 0.15f) {
+            if (Vector3.Distance(handle.transform.position, transform.position) < 0.10f) {
                 grabbedHandle = handle.GetComponent<VRHandle>();
                 grabbedHandle.IsGrabbed = true;
+                IsGrabbing = true;
             }
         }
     }
@@ -154,29 +177,8 @@ public class HandRig : MonoBehaviour {
         if (!grabbedHandle) return;
         if (!triggerDown && !gripDown) {
             grabbedHandle.IsGrabbed = false;
-            grabbedHandle = null;
+            IsGrabbing = false;
         }
-    }
-
-    void SetHandPose(HandPose pose) {
-
-        int poseID = 0;
-        switch (pose) {
-            case HandPose.Idle:
-                poseID = 0;
-                break;
-            case HandPose.Fist:
-                poseID = 1;
-                break;
-            case HandPose.Point:
-                poseID = 2;
-                break;
-        }
-
-        if (grabbedHandle) poseID = 1;
-
-        pilotAnimator.SetInteger(hand == Hand.Right ? "RightHand" : "LeftHand", poseID);
-
     }
 
 }

@@ -62,7 +62,6 @@ public class VRSwitch : MonoBehaviour {
             Vector3 fingerDir = other.transform.position - fingerPos.Value;
             fingerPos = null;
             float fingerDot = Vector3.Dot(fingerDir.normalized, transform.forward);
-            Debug.Log(fingerDot);
 
             if (IsOn && fingerDot > 0.6) IsOn = false;
             if (!IsOn && fingerDot < -0.6) IsOn = true;
